@@ -1,0 +1,24 @@
+// You should not modify this file because it will be automatically overwritten after update.
+{
+	// Turn on / off debug logs shown on console window
+	"debug": false,
+
+	// City code from Yahoo Weather
+	// Go to http://weather.yahoo.com/, find your city and click on 'Extended Forecast'
+	// You may need to disable AdBlock / Ghostery, otherwise page won't display correctly
+	// Check the address bar for city code, it should look like this
+	// http://www.weather.com/weather/extended/ --> CODE <-- ?par=yahoo&(...)
+	// After changing this value you need to restart sublime
+	"code": "UKXX0085",
+
+	// Temperature unit, either Fahrenheits or Celsius
+	// After changing this value you need to restart sublime
+	"unit": "C",
+
+	// Formatting string to display weather
+	// Available values are:
+	// [Country], [City], [Text], [Temp], [Unit], [Sunrise], [Sunset], [Pressure], [Humidity]
+	// Each value will be replaced with appropriate weather data, example:
+	// In [City] the weather is [Text] ([Temp][Unit])
+	"format": "[City], [Text], [Temp][Unit]"
+}
