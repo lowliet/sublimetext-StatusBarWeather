@@ -12,12 +12,12 @@
 				"children":
 				[
 					{
-						"caption": "StatusBarWeather",
+						"caption": "Status Bar Weather",
 						"children":
 						[
 							{
 								"command": "open_file",
-								"args": {"file": "${packages}/StatusBarWeather/StatusBarWeather.sublime-settings"},
+								"args": {"file": "${packages}/Status Bar Weather/StatusBarWeather.sublime-settings"},
 								"caption": "Settings – Default"
 							},
 							{
