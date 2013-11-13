@@ -5,6 +5,8 @@ Sublime Text 3 package for displaying weather info in status bar
 
 ## Preview
 
+![Preview] (https://github.com/lowliet/sublimetext-StatusBarWeather/raw/master/preview_small.png)
+
 ![Preview] (https://github.com/lowliet/sublimetext-StatusBarWeather/raw/master/preview.png)
 
 --------------
