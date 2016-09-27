@@ -47,7 +47,7 @@ class StatusBarWeather(sublime_plugin.EventListener):
 			format = ""
 		return format
 
-	_STATUS_KEY = "statusweather"
+	_STATUS_KEY = "z_statusweather"
 
 class Weather():
 	""" Class providing weather service """
