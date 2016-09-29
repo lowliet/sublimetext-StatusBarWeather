@@ -3,13 +3,21 @@
 	// Turn on / off debug logs shown on console window
 	"debug": false,
 
+	// ! old
 	// City code from Yahoo Weather
 	// Go to http://weather.yahoo.com/, find your city and click on 'Extended Forecast'
 	// You may need to disable AdBlock / Ghostery, otherwise page won't display correctly
 	// Check the address bar for city code, it should look like this
 	// http://www.weather.com/weather/extended/ --> CODE <-- ?par=yahoo&(...)
 	// After changing this value you need to restart sublime
-	"code": "UKXX0085",
+	// "code": "UKXX0085",
+	//
+	// ! new
+	// 1. goto https://www.yahoo.com/news/weather
+	// 2. click on "Change location"
+	// 3. enter the name of the locality and click on a search result
+	// 4. copy the id at the end of the new links page
+	"code": "2120318", // Blagoveshchensk
 
 	// Temperature unit, either Fahrenheits or Celsius
 	// After changing this value you need to restart sublime
