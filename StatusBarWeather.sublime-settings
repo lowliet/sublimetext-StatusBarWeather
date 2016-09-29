@@ -13,7 +13,7 @@
 	// "code": "UKXX0085",
 	//
 	// ! new
-	// 1. https://www.yahoo.com/news/weather
+	// 1. goto https://www.yahoo.com/news/weather
 	// 2. click on "Change location"
 	// 3. enter the name of the locality and click on a search result
 	// 4. copy the id at the end of the new links page
