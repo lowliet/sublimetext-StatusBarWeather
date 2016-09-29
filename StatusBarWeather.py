@@ -2,6 +2,9 @@
 #    Made by lowliet
 #    https://github.com/lowliet
 #
+#    fixes by ildar r. khasanshin
+#    https://github.com/ildarkhasanshin
+#
 
 from datetime import datetime
 import xml.etree.ElementTree as et
