@@ -56,12 +56,10 @@ class Weather():
 	""" Class providing weather service """
 	def __init__(self, code, unit):
 		""" Constructor """
-		# self._url = "http://weather.yahooapis.com/forecastrss?p={0}&u={1}".format(code, unit)
 		self._url = "https://query.yahooapis.com/v1/public/yql?format=xml&q=SELECT%20*%20FROM%20weather.forecast%20WHERE%20u=%27{1}%27%20AND%20woeid%20=%20%27{0}%27".format(code, unit)
 
 	def _get_node(self, root, name, node = ''):
 		""" Retrieves node """
-		# return root.find(('channel/' + node + '{%s}' + name) % "http://xml.weather.yahoo.com/ns/rss/1.0")
 		return root.find(('results/channel/' + node + '{%s}' + name) % "http://xml.weather.yahoo.com/ns/rss/1.0")
 
 	def get_weather(self):
