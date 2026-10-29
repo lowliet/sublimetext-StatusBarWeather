@@ -32,9 +32,9 @@ class StatusBarWeather(sublime_plugin.EventListener):
 		else:
 			self._data = Weather(self._code, self._unit).get_weather()
 
-	def display_weather(self, view, async = True):
+	def display_weather(self, view, fetch = True):
 		self.load_settings()
-		if not hasattr(self, '_data') and async: self.fetch_weather()
+		if not hasattr(self, '_data') and fetch: self.fetch_weather()
 		if hasattr(self, '_data') and sublime.active_window():
 			sublime.active_window().active_view().set_status(self._STATUS_KEY, self.format_data(self._data, self._format))
 
